@@ -186,6 +186,11 @@
           "group": "action"
         },
         {
+          "command": "extension.jenkins-jack.pipeline.pushJobScript",
+          "when": "view == pipelineTree && viewItem == pipeline-linked",
+          "group": "action"
+        },
+        {
           "command": "extension.jenkins-jack.tree.pipeline.openScript",
           "when": "view == pipelineTree && viewItem == pipeline-linked",
           "group": "inline"
@@ -524,6 +529,11 @@
       {
         "command": "extension.jenkins-jack.tree.pipeline.pullJobScript",
         "title": "Pull Job Script",
+        "category": "Jenkins Jack: Pipeline Tree"
+      },
+      {
+        "command": "extension.jenkins-jack.pipeline.pushJobScript",
+        "title": "Push Job Script",
         "category": "Jenkins Jack: Pipeline Tree"
       },
       {
